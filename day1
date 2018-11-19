@@ -1,0 +1,27 @@
+function test(){
+		message="hi";//全局变量
+
+	}
+	test();
+	alert(message);//输出hi
+	var message="hello world";
+	var messageAsBoolean =Boolean(message);
+	var floatNum=3.125e7//31250000;
+	var num1=parseInt("1234blue");//1234
+	var num2=parseInt("");//NaN
+	var num3=parseFloat("22.34.5");//22.34
+
+	var age=11;
+	var ageAsString=age.toString();//string"11"
+
+	var age1=2;
+	var age2=20;
+	var age3=--age1+age2;//21
+	var age4=age1+age2;//21
+
+
+
+	var tree1=2;
+	var tree2=20;
+	var tree3=tree1--+tree2;//22
+	var tree4=tree1+tree2;//21
